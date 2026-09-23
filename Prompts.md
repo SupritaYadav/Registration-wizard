@@ -38,4 +38,4 @@ Used for:
 
 ## Important note
 
-AI was used for explanations and debugging support. The developer should understand the code before committing or submitting it, and should update this log with the actual prompts used during later debugging sessions.
+AI was used for explanations and debugging support. 

@@ -1,36 +1,68 @@
-# Registration Wizard — Sprint 7
+# Registration Wizard
 
-A three-step React registration wizard implementing:
+## Overview
 
-- Step 1: Personal Information
-- Step 2: Account Details
-- Step 3: Review & Submit
-- Lifted form data in `App.jsx`
-- React Hook Form + Zod validation
-- Real-time validation
-- Conditional Next buttons
-- Show/Hide Password
-- Dynamic progress bar
-- Back-button state persistence
-- Console submission payload
-- Success UI
-- Responsive CSS
+The Registration Wizard divides the registration process into multiple steps instead of showing all fields on one screen.
+Users can enter their information step by step, receive validation feedback, move forward or backward between steps, and submit the completed registration form.
+---
 
-## Run
+## 🚀 Live Demo
+👉 Registration Wizard Live Website:(https://registration-wizard-sprint7.vercel.app/)
 
-```bash
-npm install
-npm run dev
+---
+📸 Project Screenshot & Video
+### Desktop Preview
+![Registration Wizard Preview](./public/desktop%20preview.png)
+
+---
+
+## ✨ Features
+- Multi-step registration form
+- Step/progress indicator
+- Back and Next navigation
+- Form validation
+- Password and confirm-password validation
+- Validation while entering information
+- Separate React components for each step
+- Responsive interface
+- Prevents moving forward when the current step is invalid
+- Final form submission
+
+---
+
+## Tech Stack
+
+### Frontend
+   - React.js
+   - JavaScript (ES6+)
+   - HTML5
+   - CSS3
+   - Libraries
+   - React Hook Form
+   - Zod
+   - @hookform/resolvers
+---
+
+## 📂 Project Structure
+
 ```
-
-Then open the localhost URL shown by Vite.
-
-## Build check
-
-```bash
-npm run build
+registration-wizard-sprint7/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── StepOne.jsx
+│   │   ├── StepTwo.jsx
+│   │   └── StepThree.jsx
+│   ├── validators/
+│   │   └── registration.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
 ```
-
-## Important
-
-Read and understand each file before submitting. `Prompts.md` records AI assistance as required by the sprint instructions.
+---
