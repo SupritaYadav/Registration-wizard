@@ -43,6 +43,7 @@ Users can enter their information step by step, receive validation feedback, mov
    - React Hook Form
    - Zod
    - @hookform/resolvers
+   
 ---
 
 ## 📂 Project Structure
