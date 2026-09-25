@@ -14,6 +14,8 @@ Users can enter their information step by step, receive validation feedback, mov
 ### Desktop Preview
 ![Registration Wizard Preview](./public/desktop%20preview.png)
 
+👉[Watch  Video Preview](https://drive.google.com/file/d/1LHYXkCA1IQljTWMz8O7gdnvt3P365pSt/view?usp=sharing)
+
 ---
 
 ## ✨ Features
